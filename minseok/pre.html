@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5주차 실습</title>
+</head>
+<body>
+<h1>목록의 복습과 활용</h1>    
+<h3>순서 없는 목록</h3>    
+    <ul>
+        <li>사과</li>
+        <li>배</li>
+        <li>오렌지</li>
+        <li>포도</li>
+    </ul>
+<h3>좋아하는 과일 순서</h3>
+    <ol>
+        <li>복숭아</li>
+        <li>귤</li>
+        <li>딸기</li>
+    </ol>
+<ul style="list-style-type:square;">
+    <li>사과</li>
+    <li>배</li>
+    <li>복숭아
+        <ul>
+            <li>천도 복숭아</li>
+                <ul style="list-style-type:none;">
+                    <li>통조림 캔</li>
+                    <li>오뚜기</li>
+                    <li>화채</li>
+                </ul>
+            <li>황도 복숭아</li>
+            <li>백도 복숭아</li>
+        </ul>
+    </li>
+    <li>딸기</li>
+    <li>오렌지</li>
+</ul>
+<h3>여행지 순서</h3>
+<ol>
+    <li>독일</li>
+        <ol type="a">
+            <li>베를린</li>
+            <li>쾰른</li>
+            <li>뮌헨</li>
+            <li>본</li>
+        </ol>
+    <li>영국</li>
+    <li>프랑스</li>
+    <li>이탈리아</li>
+    <li>미국</li>
+</ol>
+<h3>설명형 정의형 목록</h3>
+<dl>
+    <dt>버스</dt>
+    <dd>지선버스, 간선버스</dd>
+    <dt>지하철</dt>
+    <dd>2호선 강남역 3번 출구</dd>
+    <dd>신분당선 기흥역 1번 출구</dd>
+</dl>
+<hr>
+<h3>div 태그 요소의 컨테이너</h3>
+<div style="border: 1px solid green;background-color: skyblue;">
+    <h4>영역을 나누는 역할</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et id rerum itaque incidunt ipsum, quis iure libero fuga beatae excepturi.</p>
+</div>
+<p>Lorem ipsum dolor sit amet.</p>
+<hr>
+<h3>span 태그 요소</h3>
+    <p>Lorem ipsum <span style="color: blue;font-size: 28px;border: 1px solid navy;">dolor</span> sit, amet consectetur adipisicing elit. Enim, corrupti?</p>
+    <hr>
+    <section class="issue_pick">
+        <header class="title wrap">
+            <strong class="title">ISSUE PICK</strong>
+            <span class="date sm_hidden" data-format="issuePick" data-format-initialized ="Y">2022년 9월 27일(화)</span>
+        </header>
+        <div>
+            <ul>
+                <li>
+                    <strong>사설, 칼럼</strong>
+                    <span>세상을 바라보는 창</span>
+                </li>
+                <li>
+                    <strong>팩플</strong>
+                    <span>혁신기업에 무슨 일이</span>
+                </li>
+                <li>
+                    <strong>K엔터</strong>
+                    <span>세계 뒤흔든 K팝의 모든 것</span>
+                </li>
+                <li>
+                    <strong>hello! Parents</strong>
+                    <span>'육아의 신'과 함께</span>
+                </li>
+            </ul>
+            <span>
+                가상요소의 등장
+            </span>
+        </div>
+    </section>
+</body>
+</html>
