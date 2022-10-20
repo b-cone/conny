@@ -8,6 +8,7 @@
   <style>
     body{
       text-align: center;
+      background-image: url(https://media.newyorker.com/photos/6192e6806cc53639147cb876/4:3/w_2275,h_1706,c_limit/TTB_20201111_08767r.jpg);
     }
     table.info{
       border: 2px solid black;
@@ -18,6 +19,7 @@
     .info th, .info td{
       border: 1px solid black;
       height: 50px;
+      background-color: white;
     }
     img{
       margin-left: auto;
@@ -28,6 +30,7 @@
       border-collapse: collapse;
       margin-left: auto;
       margin-right: auto; 
+      background-color: white;
     }
     .rt th, .rt td{
       border: 1px solid #f93208;
@@ -37,14 +40,55 @@
       border-collapse: collapse;
       margin-left: auto;
       margin-right: auto; 
+      background-color: white;
     }
     .imdb th, .imdb td{
-      border: 1px solidll #f6c700;
+      border: 1px solid #f6c700;
+    }
+    table.metacritic{
+      border: 2px solid #333333;
+      border-collapse: collapse;
+      margin-left: auto;
+      margin-right: auto; 
+      background-color: white;
+    }
+    .metacritic th, .metacritic td{
+      border: 1px solid #333333;
+    }
+    table.myreview{
+      width: 800px;
+      border: 2px solid black;
+      border-collapse: collapse;
+      margin-left: auto;
+      margin-right: auto; 
+      background-color: white;
+    }
+    .myreview th, .myreview td{
+      border: 1px solid black;
+    }
+    table.summary{
+      border: 2px solid black;
+      border-collapse: collapse;
+      margin-left: auto;
+      margin-right: auto; 
+      background-color: white;
+    }
+    .summary th, .summary td{
+      border: 1px solid black;
+      height: 70px;
+      width: 800px;
+    }
+    blockquote{
+      color: white;
+      background-color: black;
+      width: 800px;
+      margin-left: auto;
+      margin-right: auto; 
     }
   </style>
 </head>
 <body>
-  <h1>Tick, Tick.. Boom!</h1>
+  <h1 style="color: white; font-size: 70px;" id="ttb"><a href="#bottom">Tick, Tick.. Boom!</a></h1>
   <hr>
   <table class="info">
     <tr>
@@ -70,12 +114,12 @@
     </tr>
     <tr>
       <td style="height: 50px; width: 380px;"><b>TOMATOMETER</b></td>
-      <td><img src="midtest/certified_fresh.75211285dbb.svg" alt="fresh mark" style="vertical-align: middle;" width="40px">
+      <td><img src="midtest/certified_fresh.75211285dbb.svg" alt="fresh mark" style="vertical-align: middle;" width="30%">
         <span style="vertical-align: middle;"><b>87%</b></span></td>
     </tr>
     <tr>
       <td style="height: 50px; width: 380px;"><b>AUDIENCE SCORE</b></td>
-      <td><img src="midtest/aud_score-fresh.6c24d79faaf.svg" alt="audience fresh" width="40px" style="vertical-align: middle;">
+      <td><img src="midtest/aud_score-fresh.6c24d79faaf.svg" alt="audience fresh" width="30%" style="vertical-align: middle;">
         <span style="vertical-align: middle;"><b>96%</b></span></td>
     </tr>
   </table>
@@ -85,9 +129,51 @@
       <td colspan="2" style="background-color: #f6c700; height: 70px; width: 500px;"><img src="midtest/IMDb logo.png" alt="IMDb" width="110px"></td>
     </tr>
     <tr>
-      <td style="height: 50px; width: 380px;"><b>USER RATING</b></td>
-      <td><b>7.5/10</b></td>
+      <td style="height: 50px; width: 380px;"><b>IMDb RATING</b></td>
+      <td><img src="midtest/Yellow_Star_with_rounded_edges.svg" alt="star" width="18%" style="vertical-align: middle;">
+        <span style="vertical-align: middle;"><b>7.5/10</b></span></td>
     </tr>
   </table>  
+<br>
+  <table class="metacritic">
+    <tr>
+      <td colspan="2" style="background-color: #333333; height: 70px; width: 500px;"><img src="midtest/metacritic.svg" alt="metacritic" width="40%"></td>
+    </tr>
+    <tr>
+      <td style="height: 50px; width: 380px;"><b>METASCORE</b></td>
+      <td style="background-color: #66cc33; color: white;"><b>74</b></td>
+    </tr>
+    <tr>
+      <td style="height: 50px; width: 380px;"><b>USER REVIEWS</b></td>
+      <td style="background-color: #66cc33; color: white;"><b>7.4/10</b></td>
+    </tr>
+  </table>
+  <br>
+    <table class="summary">
+      <caption style="color: white;"><b>중간과제 - 2017280008 이민석</b></caption>
+      <tr>
+        <td><h2>줄거리</h2></td>
+      </tr>
+      <tr>
+        <td>서른 살 생일을 코앞에 둔 유망한 작곡가. 사랑과 우정뿐만 아니라 심적 압박도 헤쳐나가야 하는 상황이다. <br>시간이 다하기 전에 위대한 작품을 만들어야 한다는 중압감은 어떻게 다스려야 할까.</td>
+      </tr>
+    </table>
+  <br>
+  <table class="myreview">
+    <tr>
+      <th><h2>나의 평가</h2></th>
+    </tr>
+    <tr>
+      <td><p>이 영화를 보면서 굉장히 공감이 많이 됐다. 더 나이 들기 전에 무엇인가를 이뤄야 된다는 주인공이 받는 압박감이 나 뿐 만이 아니라 20대, 그리고 30대까지도 공통적으로 받을 수 있는 압박감이라는 생각이 들었다. 아이러니하게도 주인공인 조너선 라슨은 자신의 첫 오프브로드웨이 개막 작품인 "렌트"의 개막 전 날에 대동맥류 파열로 숨을 거뒀다. 라슨의 사망 이후 뮤지컬 "렌트"는 성공하게 되지만 아이러니하게도 라슨은 그 모습을 보지 못했다. 나는 이 영화를 보면서 내가 신경써야 할 것은 성공 뿐이 아니라는 생각이 들었다.</p></td>
+    </tr>
+  </table>
+  <br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.607024327295!2d-73.9921886845946!3d40.72666667933035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2599b4b4720bf%3A0xc3276a2722ace3e!2sNew%20York%20Theatre%20Workshop!5e0!3m2!1sko!2skr!4v1666271200977!5m2!1sko!2skr" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <blockquote>(조너선 라슨이 뮤지컬 "틱, 틱.. 붐!"을 직접 공연했던 New York Theatre Workshop.)</blockquote>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/eh6-ZfWdnLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <blockquote>영화 "틱, 틱.. 붐!"의 주제곡이라고 할 수 있는 "30/90". 조너선 라슨을 연기한 앤드류 가필드가 직접 불렀다.<br> 90년대에 들어서면서 서른 살이 되는 주인공이 성공에 대한 압박감을 주제로 한 노래이다.</blockquote>
+  <p id="bottoom">
+    <a href="#ttb"><img src="midtest/up-arrow.png" alt="go to top" width="50px"></a>
+  </p>  
 </body>
 </html>
