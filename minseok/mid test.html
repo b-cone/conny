@@ -6,11 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    ul{
-      list-style-type: none;
+    body{
+      background-image: url(https://assets.atdw-online.com.au/images/04b1ae3cb412a903872c5ab1fc98303a.jpeg?rect=241%2C0%2C4919%2C3689&w=2048&h=1536&rot=360&q=eyJ0eXBlIjoibGlzdGluZyIsImxpc3RpbmdJZCI6IjYxYjk1OTc3YTYwZDZiY2I2Y2FlYTMzYSIsImRpc3RyaWJ1dG9ySWQiOiI1NmIxZWI5MzQ0ZmVjYTNkZjJlMzIwYzgiLCJhcGlrZXlJZCI6IjU2YjFlZTU5MGNmMjEzYWQyMGRjNTgxOSJ9);
+      background-attachment: fixed;
+      background-size: cover;
+      margin-left: auto;
+      margin-right: auto;
     }
     div.title{
       text-align: center;
+      color: white;
+      background-color: rgb(158, 0, 0);
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
     }
     div.logo{
       width: 400px;
@@ -18,37 +27,67 @@
       align-items: center;
       display: flex;
       justify-content: center;
-      margin-left: auto;
-      margin-right: auto;
     }
     img{
       width: 400px;
     }
+    p{
+      background-color: white;
+      width: max-content;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    ul{
+      width: 463px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   </style>
 </head>
 <body>
+  <p id="top"><a href="#bottom">TOP</a></p>
+  <hr>
   <div class="title">
     <h1>추천하는 뮤지컬 영화들</h1><h4><i>Recommend Musicial Movies</i></h4>
   </div>
-  <hr>
-  <ul>
-    <li>
-      <a href="midtest_tick tick boom.html#ttb">
-        <div class="logo" style="background-color: rgb(20, 20, 20); border: 10px solid goldenrod;">
-          <img src="midtest/tick-tick-boom.png" alt="Tick, Tick.. Boom!">
-        </div>
-      </a>
-    </li>
-    <br>
-    <li><div class="logo" style="background-color: rgb(88, 5, 32); border: 10px solid rgb(120, 78, 139);"><img src="midtest/The_Greatest_Showman.png" alt="The Greatest Showman"></div></li>
-    <br>
-    <li><div class="logo" style="background-color: rgb(19, 5, 70); border: 10px solid rgb(248, 174, 77);"><img src="midtest/charlie and the chocolate factory.png" alt="Charlie And The Chocolate Factory"></div></li>
-    <br>
-    <li><div class="logo" style="border: 10px solid rgb(0, 0, 0);"><img src="midtest/Les-miserables.jpg" alt="Les Miserables"></div></li>
-    <br>
-    <li><div class="logo" style="background-color: rgb(122, 0, 122); border: 10px solid goldenrod;"><img src="midtest/aladdin.webp" alt="Aladdin"></div></li>
-    <br>
-  </ul>
+  <div class="list">
+    <ul>
+      <li>
+        <a href="midtest_tick tick boom.html#ttb" target="_blank">
+          <div class="logo" style="background-color: rgb(20, 20, 20); border: 10px solid goldenrod;">
+            <img src="midtest/tick-tick-boom.png" alt="Tick, Tick.. Boom!">
+          </div>
+        </a>
+      </li>
+      <br>
+      <li>
+        <a href="midtest_greatest showman.html#tgs">
+          <div class="logo" style="background-color: rgb(88, 5, 32); border: 10px solid rgb(120, 78, 139);"><img
+              src="midtest/The_Greatest_Showman.png" alt="The Greatest Showman">
+            </div>
+        </a>
+      </li>
+      <br>
+      <li>
+        <div class="logo" style="background-color: rgb(19, 5, 70); border: 10px solid rgb(248, 174, 77);"><img
+            src="midtest/charlie and the chocolate factory.png" alt="Charlie And The Chocolate Factory"></div>
+      </li>
+      <br>
+      <li>
+        <div class="logo" style="border: 10px solid rgb(0, 0, 0);"><img src="midtest/Les-miserables.jpg"
+            alt="Les Miserables"></div>
+      </li>
+      <br>
+      <li>
+        <div class="logo" style="background-color: rgb(122, 0, 122); border: 10px solid goldenrod;"><img
+            src="midtest/aladdin.webp" alt="Aladdin"></div>
+      </li>
+      <br>
+    </ul>
+  </div>
+  <p id="bottoom">
+    <a href="#top">GO TO TOP</a>
+  </p>  
   <hr>
 </body>
 </html>
