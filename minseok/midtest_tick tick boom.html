@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>틱, 틱.. 붐!</title>
   <style>
     body{
       text-align: center;
@@ -82,7 +82,6 @@
     }
     blockquote{
       color: white;
-      background-color: black;
       width: 700px;
       margin-left: auto;
       margin-right: auto; 
@@ -90,10 +89,44 @@
     audio{
       vertical-align: middle;
     }
+    div.map{
+      background-color: #000000;
+      width: 660px;
+      height: 660px;
+      display : flex;
+      justify-content: center;
+      align-items : center;
+      margin-left: auto;
+      margin-right: auto; 
+      border-radius: 30px;
+    }
+    div.youtube{
+      background-color: #000000;
+      width: 700px;
+      height: 450px;
+      display : flex;
+      justify-content: center;
+      align-items : center;
+      margin-left: auto;
+      margin-right: auto; 
+      border-radius: 20px;
+    }
+    div.music{
+      background-color: #000000;
+      width: 380px;
+      height: 380px;
+      display : flex;
+      justify-content: center;
+      align-items : center;
+      margin-left: auto;
+      margin-right: auto; 
+      border-radius: 15px;
+    }
   </style>
 </head>
 <body>
   <p id="ttb"><a href="#bottom">TOP</a></p>
+  <p id="main"><a href="mid test.html#top">MAIN</a></p>
   <hr>
   <h1 style="color: white; font-size: 70px;">Tick, Tick.. Boom!</h1>
   <hr>
@@ -199,16 +232,30 @@
     </tr>
   </table>
   <br>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.607024327295!2d-73.9921886845946!3d40.72666667933035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2599b4b4720bf%3A0xc3276a2722ace3e!2sNew%20York%20Theatre%20Workshop!5e0!3m2!1sko!2skr!4v1666271200977!5m2!1sko!2skr" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  <blockquote>(조너선 라슨이 뮤지컬 "틱, 틱.. 붐!"을 직접 공연했던 New York Theatre Workshop.)</blockquote>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/jcXVY9h17cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <blockquote>영화 "틱, 틱.. 붐!"의 주제곡이라고 할 수 있는 "30/90".<br> 영상은 조너선 라슨이 생전에 뮤지컬 공연 중 부른 30/90.<br> 90년대에 들어서면서 서른 살이 되는 주인공이 성공에 대한 압박감을 주제로 한 노래이다.</blockquote>
-  <img src="midtest/TTB_AlbumArt_3000x3000_Jonathan.jpg" alt="album cover" width="15%">
+  <div class="map">
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.607024327295!2d-73.9921886845946!3d40.72666667933035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2599b4b4720bf%3A0xc3276a2722ace3e!2sNew%20York%20Theatre%20Workshop!5e0!3m2!1sko!2skr!4v1666271200977!5m2!1sko!2skr" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <blockquote>(조너선 라슨이 뮤지컬 "틱, 틱.. 붐!"을 직접 공연했던 New York Theatre Workshop.)</blockquote>
+    </div>
+  </div>
   <br>
-  <audio controls>
-    <source src="midtest/30.90_Andrew Garfield & Joshua Henry & Vanessa Hudgens & Robin De Jesus & Alexandra Shipp & MJ Rodriguez.mp3" type="audio/mpeg">
-  </audio>
-  <blockquote>위의 노래는 영화에서 조너선 라슨 역을 맡은 배우 앤드류 가필드가 직접 부른 30/90이다.</blockquote>
+  <div class="youtube">
+    <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jcXVY9h17cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <blockquote>영화 "틱, 틱.. 붐!"의 주제곡이라고 할 수 있는 "30/90".<br> 영상은 조너선 라슨이 생전에 뮤지컬 공연 중 부른 30/90이다.<br> 90년대에 들어서면서 서른 살이 되는 주인공이 성공에 대한 압박감을 주제로 한 노래.</blockquote>
+    </div>
+  </div>
+  <br>
+  <div class="music">
+    <div>
+      <img src="midtest/TTB_AlbumArt_3000x3000_Jonathan.jpg" alt="album cover" width="30%">
+      <br>
+      <audio controls>
+        <source src="midtest/audio/3090_Andrew Garfield & Joshua Henry & Vanessa Hudgens & Robin De Jesus & Alexandra Shipp & MJ Rodriguez.mp3" type="audio/mpeg">
+      </audio>
+      <blockquote>위 노래는 영화에서 조너선 라슨 역을 맡은 <br>배우 앤드류 가필드가 직접 부른 30/90이다.</blockquote>
+    </div>
+  </div>
   <p id="bottoom">
     <a href="#ttb"><img src="midtest/up-arrow.png" alt="go to top" width="50px"></a>
   </p>  
