@@ -1,0 +1,47 @@
+*{
+    color: blueviolet;
+}
+h1{
+    font-size: 64px;
+}
+div{
+
+}
+ul{
+    
+}
+li{
+    color: aquamarine;
+}
+p{
+
+}
+span{
+
+}
+div{
+    color: aqua;
+}
+#france{
+    font-size: 60px;
+    color: navy;
+}
+h2, h3{
+    text-align: center;
+    color: brown;
+}
+div{
+    color: indianred;
+}
+#title{
+    color: darkgreen;
+}
+.top{
+    color: rebeccapurple;
+}
+*{
+    color: darkslateblue;
+}
+body{
+    color: peru;
+}

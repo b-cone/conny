@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.p1{
+    font-family: "맑은 고딕","돋움체","굴림체",sans-serif;
+}
+.p2{
+    font-size: 40px;
+}
+.p3{
+    font-size: 12px;
+}
+.it{
+    font-style: italic;
+}
+.fw{
+    font-weight: bolder;
+}
+div.fwb{
+    font-weight: 800;
+}
+p.ft{
+    font-weight: lighter;
+}
+p.google{
+    font-family: 'Bebas Neue', cursive;
+}
+p.tgreen{
+    color: #d3e44a;
+}
+p.line{
+    font-size: 12px;
+    line-height: 0.6;
+    
+}
