@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    text-align: center;
+}
+b.title{
+    font-size: 120px;
+    font-family: 'Bebas Neue', cursive;
+}
+p.small{
+    font-size: 25px;
+}
+b.summary{
+    font-size: 22px;
+    color: white;
+}
+div.summ{
+    background-color: teal;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+b.accent{
+    font-size: 16px;
+}
+li{
+    font-size: larger;
+    line-height: 50px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    width: 200px;
+}
+figcaption{
+    font-weight: bolder;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+p.desc{
+    border: 1px solid black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.director{
+    font-size: x-large;
+    font-weight: bolder;
+    line-height: 50%;
+}
+p.represent{
+    font-size: x-large;
+    font-weight: bolder;
+    line-height: 50%;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+tr,td{
+    margin-right: 15px;
+}
+#killbill{
+    width: 390px;
+}
