@@ -54,6 +54,7 @@ p.desc{
 p.director{
     font-size: x-large;
     font-weight: bolder;
+    text-transform: capitalize;
     line-height: 50%;
 }
 p.represent{
