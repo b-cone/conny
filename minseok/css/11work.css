@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Sunflower:wght@500&display=swap');
+
+*{
+    text-align: center;
+}
+h1{
+    height: 120px;
+    border-width: 30px 10px;
+    border-style: dashed;
+    border-color: crimson;
+    font-size: 80px;
+    font-family: 'Sunflower', sans-serif;
+}
+.list{
+    list-style-type: none;
+    padding: 0;
+}
