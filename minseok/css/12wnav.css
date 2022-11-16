@@ -1,0 +1,47 @@
+@import url(reset.css);
+ul{
+    background-color: #fff;
+}
+ul.demo{
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+}
+nav{
+    width: 300px;
+    /* height: 400px; */
+    margin: 50px auto;
+    background-color: rgb(255, 255, 255);
+ }
+nav ul{
+    /* background-color: teal; */
+    list-style-type: none;
+
+}
+nav ul li{
+    background-color: darkblue;
+    padding: 20px 40px;
+    margin: 5px;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+.menu{
+    background-color: lightgray;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.menu li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    /* background-color: olivedrab; */
+}
+.menu a{
+    text-decoration: none;
+    color: #333;
+}
