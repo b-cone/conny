@@ -1,0 +1,47 @@
+@import url(reset.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-color: lightblue;
+}
+.container .navi{
+    width: 1000px;
+    background-color: lightgreen;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+.container .navi ul{
+    list-style-type: none;
+
+
+}
+.container .navi ul li{
+    background-color: lightsalmon;
+    float: left;
+    width: 120px;
+
+}
+.navi ul li.right{
+    float: right;
+}
+.navi a:link, .navi a:visited{
+    display: block;
+    padding: 20px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.navi a:hover, .navi a:focus{
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+}
+.navi a:active{
+    background-color: chocolate;
+}
