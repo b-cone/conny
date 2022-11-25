@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Josefin+Sans&family=Michroma&family=Oswald&family=Tenor+Sans&display=swap');
+@import url(reset.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maintitle{
+  padding: 30px 0 30px 0;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  background-color: dodgerblue;
+}
+
+.container .bar{
+  background-color: cornflowerblue;
+  list-style-type: none;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 50px;
+
+}
+.bar{
+  width: 1200px;
+  border-radius: 15px;
+  text-align: center;
+}
+.bar ul{
+  display: inline-block;
+}
+.bar ul li{
+  float: left;
+  font-size: 20px;
+  margin: 20px;
+  width: auto;
+}
+.bar ul a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.bar::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.bar a:link, .bar a:visited{
+  color: white
+
+}
+.bar a:hover, .bar a:focus{
+  color: rgb(0, 0, 0);
+}
+.bar a:active{
+  color: darkblue
+}
+.movie{
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 150px;
+}
+img{
+  width: 1280px;
+  height: 720px;
+  object-fit: cover;
+}
+.movie .ab{
+  font-family: 'Michroma', sans-serif;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.movie .rs{
+  font-family: 'Cormorant', serif;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.movie .cr{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.movie .salt{
+  font-family: 'Oswald', sans-serif;
+  font-size: 180px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.movie .ig{
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
