@@ -56,6 +56,46 @@
 .bar a:active{
   color: darkblue
 }
+.container .bar2{
+  background-color: rgb(189, 237, 100);
+  list-style-type: none;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 50px;
+
+}
+.bar2{
+  width: 1200px;
+  text-align: center;
+}
+.bar2 ul{
+  display: inline-block;
+}
+.bar2 ul li{
+  float: left;
+  font-size: 20px;
+  margin: 20px;
+  width: auto;
+}
+.bar2 ul a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.bar2::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.bar2 a:link, .bar2 a:visited{
+  color: rgb(63, 150, 99)
+
+}
+.bar2 a:hover, .bar2 a:focus{
+  color: rgb(104, 104, 104);
+}
+.bar2 a:active{
+  color: rgb(250, 144, 45)
+}
 .movie{
   overflow: hidden;
   position: relative;
