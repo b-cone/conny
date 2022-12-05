@@ -1,5 +1,5 @@
 @import url(../css/reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Pacifico&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Pacifico&family=Parisienne&family=Prata&family=Rubik:wght@300&display=swap');
 *{
   box-sizing: border-box;
   margin: 0;
@@ -24,11 +24,10 @@
   color: #D04552
 }
 .container .navi{
-  background-color: rgb(122, 52, 214);
+  background-color: rgb(20, 9, 46);
   list-style-type: none;
   margin: 0 auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-bottom: 5px;
 
 }
 .navi{
@@ -111,4 +110,62 @@
   font-size: 90px;
   font-weight: 700;
   margin-top: -10px;
+}
+.gift img{
+  float: left;
+  width: 40%;
+}
+.gift img::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.gift .iconic{
+  margin-top: 150px;
+  display: inline-block;
+  width: 60%;
+}
+.iconic{
+  text-align: center;
+}
+.iconic h3{
+  font-size: 60px;
+  margin-bottom: 15px;
+  font-family: 'Prata', serif;
+}
+.iconic span{
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+}
+.list{
+  height: 100%;
+}
+.list .listlow ul{
+  text-align: center;
+}
+.list .listlow ul li{
+  margin: 150px 50px;
+  display: inline-block;
+}
+.listlow ul li a{
+  text-decoration: none;
+}
+.listlow ul li .item picture{
+  display: inline-block;
+}
+.listlow ul li .item picture img{
+  margin-bottom: 30px;
+  width: 100%;
+}
+.item p{
+
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+
+}
+.item .price{
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
 }
