@@ -1,0 +1,86 @@
+@import url(reset.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+
+}
+.list2{
+    width: 1000px;
+    background-color: lightblue;
+    margin: 100px auto;
+    list-style-type: none;
+}
+.list2::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.list2 li{
+    width: 480px;
+    height: 200px;
+    background-color: lightgreen;
+    border: 1px solid;
+    float: left;
+    margin: 0 8px 25px 8px;
+    overflow: hidden;
+}
+.list2 li a:link, a:visited{
+    text-decoration: none;
+    color: #666;
+}
+.list2 li:hover, a:active, a:focus{
+    text-decoration: underline;
+}
+.list2 li .img{
+    width: 170px;
+    height: 198px;
+    float: left;
+    overflow: hidden;
+    margin: 0 17px 0 0 ;
+}
+.list2 li .img img{
+    height: 100%;
+    width: auto;
+    margin: 0 0 0 -70px;
+}
+.list2 li .contents{
+    padding: 15px;
+
+}
+.list2 li .title{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0 15px 0;
+}
+.list2 li .text{
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    padding: 0 0 15px 0;
+}
+.list2 li .author{
+
+}
+.list2 li .author-img{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    overflow: hidden;
+    float: left;
+}
+.list2 li .author-img img{
+    width: 100%;
+    height: auto;
+    transform: translate(-50% -50%);
+}
+.list2 li .author-text{
+    font-size: 12px;
+    line-height: 1.5;
+    color: darkgreen;
+}

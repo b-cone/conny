@@ -1,0 +1,73 @@
+@import url(reset.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 900px;
+    margin: 0 auto;
+    background: lightblue;
+    padding: 20px;
+}
+#header{
+    padding: 20px;
+    margin: 0 0 20px 0;
+    background: lightyellow;
+}
+#contents{
+    width: 680px;
+    background: orange;
+    float: left;
+    padding: 20px;
+    margin: 0 0 20px 0;
+}
+#sidebar{ 
+    width: 180px;
+    padding: 10px;
+    float: right;
+    background: lightcoral;
+
+}
+#contents h1,#sidebar h1{
+    font-size: 18px;
+    line-height: 1.5;
+}
+#footer{
+    clear: both;
+    padding: 20px;
+    background: lightcyan;
+}
+/* 3단 그리드 */
+.container{
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.col-1{
+    background: lightpink;
+}
+.col-3{
+    background: lightseagreen;
+    width: 300px;
+    margin: 0 10px;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+.col-2{
+    width: 460px;
+    margin: 0 10px;
+    overflow: hidden;
+    float: left;
+}
+.col-2 img{
+    width: 100%;
+    height: auto;
+}
