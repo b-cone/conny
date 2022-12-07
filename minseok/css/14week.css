@@ -1,1 +1,156 @@
 @import url(reset.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: darkkhaki;
+    width: 500px;
+
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background: aquamarine;
+    position: relative;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+}
+.wrap{
+width: 500px;
+height: 300px;
+background: salmon;
+}
+.container2{
+width: 300px;
+background: violet;
+}
+div.box4{
+width: 120px;
+height: 120px;
+background: khaki;
+}
+div.box5{
+width: 180px;
+height: 80px;
+background: mediumturquoise;
+position: absolute;
+top: 100px;
+left: 100px;
+}
+div.box6{
+width: 110px;
+height: 100px;
+background: thistle;
+}
+div.pf{
+    width: 100px;
+    height: 140px;
+    background: burlywood;
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+}
+.banner{
+width: 800px;
+height: 300px;
+background: url(../images/ac_mirage.jpg) no-repeat;
+background-size: cover;
+border: 1px solid turquoise;
+margin: 0 auto;
+position: relative;
+
+}
+.at{
+color: gold;
+font: 80px bold arial, san-serif;
+position: absolute;
+left: 300px;
+top: 50px;
+}
+.index{
+    width: 300px;
+    height: 300px;
+    background: green;
+    position: relative;
+}
+.zone{
+    width: 100px;
+    height: 100px;
+    background-color: palegreen;
+    border: 3px dashed navy;
+    position: absolute;
+    z-index: 1;
+
+}
+.ztwo{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(152, 198, 251);
+    border: 3px dashed rgb(183, 63, 207);
+    top: 40px;
+    left: 40px;
+    position: absolute;
+}
+.zthree{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(146, 214, 9);
+    border: 3px dashed rgb(79, 186, 163);
+    position: absolute;
+    top: 200px;
+}
+
+/* 스타벅스 */
+
+section{
+    width: 100%;
+    background-color: darkred;
+}
+section h1{
+    font-size: 80px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+section .ani{
+    width: 850px;
+    height: 580px;
+    background-color: rgba(255, 255, 255, .5);
+    margin: 0 auto;
+    position: relative;
+}
+
+section .pa{
+    position: absolute;
+    left: 70px;
+    top: 80px;
+
+}
+section .pb{
+    position: absolute;
+    bottom: 15px;
+    left: 230px;
+    z-index: 1;
+}
+section .pc{
+    position: absolute;
+    right: 190px;
+    bottom: 50px;
+}
+section .pd{
+    position: absolute;
+    right: 5px;
+    top: 70px;
+}
