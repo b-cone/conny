@@ -1,5 +1,6 @@
 @import url(./source/reset.css);
 @import url("https://use.typekit.net/ang5nvv.css");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Sans+KR:wght@300;400;500;700&family=Ubuntu:wght@700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -15,23 +16,23 @@ img{
 }
 .logo{
     float: left;
-    width: 100px;
+    width: 60px;
     height: auto;
+    padding: 14px 0 15px 0;
     margin-right: 120px;
 }
+.logo a{
+    border: none;
+  }
 .bnr{
     width: 100%;
     display: inline-block;
-    margin: 0 30px;
-    padding: 20px 30px;
+    padding: 20px 60px;
 }
-.bar nav{
+#bar nav{
     width: 100%;
 }
-nav ul{
-
-}
-nav ul li{
+nav ul .navi{
     margin-right: 100px;
     padding: 20px 5px;
     float: left;
@@ -41,31 +42,212 @@ nav ul li{
     font-style: normal;
     font-size: 18px;
 }
-.bar li a:link, a:visited{
+#bar nav ul li .navi:link, .navi:visited{
     color: rgb(0, 0, 0);
     text-decoration: none;
+
 }
-.bar li a:hover, a:active, a:focus{
+#bar nav ul li .navi:hover, .navi:active, .navi:focus{
     color: #CC0033;
+    border: none;
     text-decoration: none;
 }
-nav ul li::after{
+.bnr::after{
     content: "";
     display: block;
     clear: both;
 }
+.mainbnr, .secondbnr, .prdtbnr, .footer{
+    margin: 0 auto;
+    width: 1600px;
+}    
 .mainbnr{
-
+    margin-bottom: 200px;
 }
-.mainbnr img{
-
+.mainimg{
+    margin-bottom: 50px;
+}
+.holiday{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.holiday h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    margin: 0 0 20px 0;
+}
+.holiday span{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+#btns{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.bnrbtn{
+    margin: 0 auto;
+    display: inline-block;
+    margin: 0 30px 0 0;
+}
+.bnrbtn p{
+    color: white;
+    text-align: center;
+    display: block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.bnrbtn p .btn{
+    display: block;
+    padding: 20px;
+    width: 200px;
+    background-color: black;
+}
+div #btns .bnrbtn .btn:link, .btn:visited{
+    color: white;
+    text-decoration: none;
+}
+div #btns .bnrbtn p .btn:hover, .btn:active, .btn:focus{
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+div #btns .buyit{
+    width: 200px;
+    margin: 0 auto;
+    display: inline-block;
+    height: auto;
+}
+div #btns .buyit span{
+    text-align: center;
+}
+div #btns .buyit span a{
+    width: 200px;
+    padding: 20px;
+    border: 1px solid gray;
+    color: gray;
+    display: block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+div #btns .buyit span .bttn:link, .bttn:visited{
+    color: gray;
+    text-decoration: none;
+}
+div #btns .buyit span .bttn:hover, .bttn:active, .bttn:focus{
+    font-weight: 500;
+    border: 1px solid black;
+    color: #000000;
+    text-decoration: none;
+}
+.secondbnr{
+    margin-bottom: 150px;
+}
+.nbwinter{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.nbwinter h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    margin: 0 0 20px 0;
+}
+.nbwinter span{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 }
 .prdtbnr{
+    border-top: 1px solid lightgrey;
+    margin-bottom: 120px;
+}
+.prdtbnr a{
+    border: none;
+}
+.prdt h2{
+    margin: 50px 0;
+    font-family: 'DM Serif Display', serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+.prdt img{
+    margin-bottom: 50px;
 
 }
-.col-1{
-
+.col-1, .col-2, .col-3{
+    margin: 0 auto;
+    width: 486px;
+    height: auto;
+    float: left;
+    position: relative;
 }
-.col-2{
-
+.col-3{
+    height: 100%;
+}
+.col-1, .col-2{
+    margin-right: 70px;
+}
+.prdtbnr span{
+    color: white;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 34px;
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+.prdtbnr::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.line{
+    margin: 200px 0;
+    border-top: 1px solid lightgray;
+}
+.footer{
+    margin-bottom: 150px;
+}
+.footer a{
+    border: none;
+}
+.footer .wgn{
+    display: block;
+    text-align: center;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.footer .wgntxt{
+    margin: 0 0 50px 0;
+    display: block;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.pgend{
+    position: relative;
+    height: 350px;
+    background-color: rgb(206, 206, 206);
+}
+.pgend img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 100px;
 }
