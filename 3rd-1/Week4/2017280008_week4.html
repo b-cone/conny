@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2017280008 이민석 4주차</title>
+    <script>
+        function sum(){
+            alert("인증되었습니다.")
+        }
+    </script>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <input type="text" size="100" minlength="4" maxlength="12" placeholder="아이디 [영문 + 숫자로 4 ~ 12]">
+    <br><br>
+    <input type="text" size="100" minlength="8" maxlength="20" placeholder="비밀번호 [영문 + 숫자 + 특수문자 조합으로 8 ~ 20]">
+    <br><br>
+    <input type="text" size="100" minlength="8" maxlength="20" placeholder="비밀번호 확인">
+    <br><br>
+    <input type="text" size="100" placeholder="이름">
+    <br><br>
+    <select name="생년">
+        <option value="">생년</option>
+       <option value="">2010년</option>
+       <option value="">2011년</option>
+       <option value="">2012년</option>
+       <option value="">2013년</option>
+       <option value="">2014년</option>
+       <option value="">2015년</option>
+       <option value="">2016년</option>
+       <option value="">2017년</option>
+       <option value="">2018년</option>
+       <option value="">2019년</option>
+       <option value="">2020년</option>
+       <option value="">2021년</option>
+       <option value="">2022년</option>
+       <option value="">2023년</option>
+    </select>
+    <select name="월" id="">
+        <option value="">월</option>
+        <option value="">1월</option>
+       <option value="">2월</option>
+       <option value="">3월</option>
+       <option value="">4월</option>
+       <option value="">5월</option>
+       <option value="">6월</option>
+       <option value="">7월</option>
+       <option value="">8월</option>
+       <option value="">9월</option>
+       <option value="">10월</option>
+       <option value="">11월</option>
+       <option value="">12월</option>
+    </select>
+    <select name="일" id="">
+        <option value="">일</option>
+        <option value="">1일</option>
+        <option value="">2일</option>
+        <option value="">3일</option>
+        <option value="">4일</option>
+        <option value="">5일</option>
+        <option value="">6일</option>
+        <option value="">7일</option>
+        <option value="">8일</option>
+        <option value="">9일</option>
+        <option value="">10일</option>
+        <option value="">11일</option>
+        <option value="">12일</option>
+        <option value="">13일</option>
+        <option value="">14일</option>
+        <option value="">15일</option>
+        <option value="">16일</option>
+        <option value="">17일</option>
+        <option value="">18일</option>
+        <option value="">19일</option>
+        <option value="">20일</option>
+        <option value="">21일</option>
+        <option value="">22일</option>
+        <option value="">23일</option>
+        <option value="">24일</option>
+        <option value="">25일</option>
+        <option value="">26일</option>
+        <option value="">27일</option>
+        <option value="">28일</option>
+        <option value="">29일</option>
+        <option value="">30일</option>
+        <option value="">31일</option>
+    </select>
+    <br><br>
+    <input type="text" size="20" placeholder="이메일 아이디">
+    @
+    <select name="" id="">
+        <option value="">이메일</option>
+        <option value="">naver.com</option>
+        <option value="">daum.net</option>
+    </select>
+    <br><br>
+    <input type="text" size="100" placeholder="휴대폰 - 없이 입력">
+    <br><br>
+    <select name="" id="">
+        <option value="">성별</option>
+        <option value="">남자</option>
+        <option value="">여자</option>
+    </select>
+    <br><br>
+    <input type="button" value="인증하기" onclick="sum();">
+    <br><br>
+    <input type="checkbox" name="" id="">이용약관 동의하기
+    <br>
+    <input type="checkbox" name="" id="">개인정보 수집 이용 동의하기
+    <br><br>
+    <table style="border-collapse: collapse; border-color: black;" border="2" width="750">
+        <tr border="2" bgcolor="gray">
+            <td style="font-weight: 900;" align="center">수집시점</td>
+            <td style="font-weight: 900;" align="center">이용목적</td>
+            <td style="font-weight: 900;" align="center">이용항목</td>
+            <td style="font-weight: 900;" align="center">보유 / 파기</td>
+        </tr>
+        <tr border="2">
+            <td rowspan="2" align="center">가입</td>
+            <td align="center">서비스 이용 및 상담</td>
+            <td align="center">성명, 생년월일, 휴대폰 번호, 이메일, 비밀번호</td>
+            <td rowspan="2" align="center">회원 탈퇴 시 즉시 삭제. 단, 아이디는 부정사용 이슈 방지를 위해 탈퇴 DB에서 6개월 후 삭제</td>
+        </tr>
+        <tr border="2">
+            <td align="center">마케팅</td>
+            <td align="center">성별</td>
+        </tr>
+    </table>
+    <br><br>
+    <input type="checkbox"> 마케팅 수신동의 (전체)
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox"> 이메일 수신동의
+    <input type="checkbox"> SMS 수신동의
+    <br><br>
+    <table>
+        <tr bgcolor="gray">
+            <td align="left" width="700"  height="120">
+                &nbsp;&nbsp;STCO 통합몰에서 제공하는 할일, 이벤트 정보 등을 받으실 수 있습니다. <br>
+                &nbsp;&nbsp;단, 상품 구매 정보는 수신동의 여부와 관계없이 발송됩니다. <br>
+                &nbsp;&nbsp;제공 동의를 하지 않으셔도 서비스 이용에는 문제가 없습니다.
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <hr>
+    <br><br>
+    <h2>Quiz1. 11회 올림픽 개최지는?</h2>
+    정답 <input type="text" size="80">
+    <br><br>
+    <h2>Quiz2. 2018년 동계 올림픽 기간과 개최지는?</h2>
+    <textarea cols="60" rows="5" placeholder="정답을 입력하세요."></textarea>
+    <br><br>
+    <h2>Quiz3. 올림픽 오륜기에서 파란색 원은 어느 대륙을 의미합니까?</h2>
+    <input type="radio" name="contry" id=""> 유럽
+    <br>
+    <input type="radio" name="contry" id=""> 아시아
+    <br>
+    <input type="radio" name="contry" id="" checked> 아메리카
+    <br><br>
+    <h2>Quiz4. 24회 서울 올림픽에서 금메달을 딴 양궁 여자 단체 선수들을 모두 선택하세요.</h2>
+    <input type="checkbox" name="" id="" checked>김수녕
+    <br>
+    <input type="checkbox" name="" id="" checked>양영자
+    <br>
+    <input type="checkbox" name="" id="" checked>윤정희
+    <br>
+    <input type="checkbox" name="" id="" checked>이은지
+    <h2>Quiz5. 27회 하계 시드니 올림픽에서 종합 순위 3위 국가를 선택하세요.</h2>
+    <select multiple style="height: 100px;"> 
+        <option value="">++++Select++++</option>
+        <option value="">중국</option>
+        <option value="">미국</option>
+        <option value="">호주</option>
+        <option value="">러시아</option>
+    </select>
+</body>
+</html>

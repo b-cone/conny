@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <script>
+
+        function sum(){
+            alert("현재 환율은 1400원입니다.")
+        }
+
+
+    </script>
+
+</head>
+<body>
+    <form action="https://naver.com/">
+
+        아이디 : <input type="text" size="200" maxlength="5" placeholder="여기에 아이디를 입력하세요."> <br>
+        비밀번호 : <input type="password" size="200" maxlength="5" > <br>
+        날짜 : <input type="date" name="" id=""> <br>
+        좋아하는 음식은 : <input type="checkbox" name="" id=""> 피자 &nbsp;&nbsp;
+        <input type="checkbox" name="" id=""> 햄버거 &nbsp;&nbsp;
+        <input type="checkbox" name="" id="" checked> 김치찌개 &nbsp;&nbsp;
+        <input type="checkbox" name="" id=""> 된장찌개 &nbsp;&nbsp;
+        
+        <br>
+
+        <input type="radio" name="gender" id="" checked> 남자
+        <input type="radio" name="gender" id=""> 여자 
+        <input type="radio" name="gender" id=""> 트랜스젠더
+        <br>
+
+        <input type="radio" name="ad" id=""> 광고수신
+        <input type="radio" name="ad" id=""> 광고수신 안함
+        <br>
+
+        <textarea cols="30" rows="50" placeholder="여기에 건의사항을 입력하세요."></textarea>
+
+
+        <br><br>
+
+
+        졸업학교는?
+        <select name="" id="">
+            
+            <option value="">오산대학교</option>
+            <option value="">장안대학교</option>
+            <option value="">안양대학교</option>
+            <option value="" selected>수원대학교</option>
+
+        </select>
+
+
+        <br><br>
+
+        <input type="reset" value="취소"/>
+        <input type="submit" value="확인"/>
+        <input type="button" value="현재 환율" onclick="sum();"/>
+
+        
+    </form>
+</body>
+</html>
